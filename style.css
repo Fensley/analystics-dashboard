@@ -198,3 +198,104 @@ button:hover{
   display: flex;
   justify-content: space-between;
 }
+i{
+  cursor: pointer;
+}
+/*  */
+.last-comp{
+
+  /* border: 1px solid; */
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+.last{
+  background-color: white;
+  width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.last > p  {
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+.last-children{
+  background-color: #f0f1f3;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  margin-bottom: 10px;
+}
+.last-children span{
+  padding:  10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 500;
+  display: flex;
+  gap: 5px;
+}
+.last-children span:hover{
+background-color: white;
+}
+.devices{
+  padding: 8px;
+}
+.devices p {
+  margin-bottom: 5px;
+}
+.fordestop{
+ height: 10px;
+ background-color: #0F172A;
+ width: 85%;
+   margin-bottom: 5px;
+}
+.fortablet{
+ height: 10px;
+ background-color: #0F172A;
+ width: 35%;
+   margin-bottom: 5px;
+}
+.forMobile{
+ height: 10px;
+ background-color: #0F172A;
+ width: 60%;
+}
+/*  */
+.last-two{
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+  border-radius: 5px;
+}
+.xxxlast{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.xxx2{
+    margin-bottom: 6px;
+  font-size: 20px;
+}
+.fa-ellipsis-vertical{
+background-color: #f0f1f3;
+padding: 10px;
+border-radius: 5px;
+}
+.xxxlast1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+transition: 0.3s ease;
+  padding: 10px;
+  border-radius: 5px;
+}
+.xxxlast1  p {
+  font-weight: 500;
+}
+.xxxlast1:hover{
+  cursor: pointer;
+  background-color: #f0f1f3;
+}
